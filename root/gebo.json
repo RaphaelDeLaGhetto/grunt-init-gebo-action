@@ -1,0 +1,9 @@
+{
+    "name":"{%= name %}",
+    "email":"{%= name %}@example.com",
+    "domain":"https://localhost",
+    "port":3000,
+    "httpsPort":3443,
+    "docs": "docs",
+    "testEmail": "{%= name %}-test@example.com"
+}
