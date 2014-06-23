@@ -25,12 +25,13 @@ First, install your npm modules:
 $ sudo npm install
 ```
 
-# Test 
+## Test 
 
 ```
 $ grunt nodeunit
 ```
 
 ## License
+
 Copyright (c) {%= grunt.template.today('yyyy') %} {%= author_name %}
 {%= licenses.join(', ') %} license{%= licenses.length === 1 ? '' : 's' %}.
