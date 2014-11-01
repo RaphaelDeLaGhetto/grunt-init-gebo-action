@@ -14,7 +14,7 @@ Install MongoDB on your system, if you haven't already:
 Start MongoDB by executing this at the command line:
 
 ```
-$ sudo service mongodb start
+sudo service mongodb start
 ```
 
 ### your actions module 
@@ -22,13 +22,13 @@ $ sudo service mongodb start
 First, install your npm modules:
 
 ```
-$ sudo npm install
+sudo npm install
 ```
 
 ## Test 
 
 ```
-$ grunt nodeunit
+grunt nodeunit
 ```
 
 ## License
