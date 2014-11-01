@@ -1,11 +1,18 @@
 var nconf = require('nconf'),
-    q = require('q');
+    q = require('q'),
+    winston = require('winston');
 
 /**
  * Howdy! Use this file to setup your gebo agent actions
  */
 module.exports = function() {
 
+    // Logging stuff           
+    nconf.file({ file: './gebo.json' });
+    var logLevel = nconf.get('logLevel');
+    var logger = new (winston.Logger)({ transports: [ new (winston.transports.Console)({ colorize: true }) ] });
+
+    // Database
     var db = require('../schemata')();
 
     /**
