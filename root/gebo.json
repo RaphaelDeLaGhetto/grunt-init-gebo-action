@@ -6,5 +6,5 @@
     "httpsPort":3443,
     "docs": "docs",
     "testEmail": "{%= name %}-test@example.com",
-    'logLevel": "trace"
+    "logLevel": "trace"
 }
